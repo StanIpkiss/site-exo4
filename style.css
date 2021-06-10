@@ -1,0 +1,76 @@
+body
+{
+    background-color: rgb(255, 255, 255);
+    margin: 0;
+    overflow: hidden;
+}   
+.card
+{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin: 255px;
+}
+img
+{
+    border: 1px solid rgb(98, 3, 98);
+    border-radius: 50px;
+    height: 45px;
+}
+.parentInfo
+{
+    display: flex;
+}
+.information
+{
+    flex-direction: column;
+}
+h1
+{
+    margin: 0px;
+    width: 200px;
+
+}
+.sousTitre
+{
+    margin: 0;
+    width: 385px;
+    margin-bottom: 85px;
+}
+.portrait
+{
+    display: flex;
+}
+.notation
+{
+   
+}
+.bordernotation
+{
+    background-color: #f7f1f5;
+}
+.name
+{
+    margin: 0;
+}
+.city
+{
+    margin: 0;
+}
+.descriptionprofil
+{
+    margin: 0;
+}
+.profil1
+{
+    background-color: rgb(98, 3, 98);
+    width: auto;
+}
+.profil2
+{
+
+}
+.profil3
+{
+
+}
