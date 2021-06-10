@@ -3,13 +3,19 @@ body
     background-color: rgb(255, 255, 255);
     margin: 0;
     overflow: hidden;
+    height: 100vh;
 }   
-.card
+.parentcard
 {
     display: flex;
     flex-direction: column;
-    margin: auto;
-    margin: 255px;
+    height: 100vh;
+    justify-content: center;
+    
+}
+.card
+{
+    margin: 150px;
 }
 img
 {
@@ -39,15 +45,20 @@ h1
 }
 .portrait
 {
-    display: flex;
+    position: relative;
+    flex-direction: row;
 }
 .notation
 {
-   
+   margin-left: 137px;
+   position: relative;
 }
 .bordernotation
 {
     background-color: #f7f1f5;
+    border-radius: 9px;
+    padding: 15px;
+    margin: 20px;
 }
 .name
 {
@@ -64,13 +75,27 @@ h1
 .profil1
 {
     background-color: rgb(98, 3, 98);
-    width: auto;
+    border-radius: 8px;
+    position: absolute;
+    width: 30%;
+    right: 781px;
 }
 .profil2
 {
+    background-color: rgb(98, 3, 98);
+    border-radius: 8px;
+    position: absolute;
+    width: 30%;
+    left: 370px;
+    top: 13px;
 
 }
 .profil3
 {
-
+    background-color: rgb(98, 3, 98);
+    border-radius: 8px;
+    position: absolute;
+    width: 30%;
+    left:770px;
+    top: 25px;
 }
