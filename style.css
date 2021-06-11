@@ -26,10 +26,11 @@ img
 .parentInfo
 {
     display: flex;
+    justify-content: space-between;
 }
 .information
 {
-    flex-direction: column;
+    margin-right: 147px;
 }
 h1
 {
@@ -45,20 +46,39 @@ h1
 }
 .portrait
 {
-    position: relative;
-    flex-direction: row;
+    display: flex;
+    align-items: flex-start;
+}
+.headprofil
+{
+    display: flex;
 }
 .notation
 {
-   margin-left: 137px;
-   position: relative;
+   
 }
-.bordernotation
+.bordernotation1
 {
     background-color: #f7f1f5;
     border-radius: 9px;
     padding: 15px;
     margin: 20px;
+}
+.bordernotation2
+{
+    background-color: #f7f1f5;
+    border-radius: 9px;
+    padding: 15px;
+    margin: 20px;
+    margin-left: 65px;
+}
+.bordernotation3
+{
+    background-color: #f7f1f5;
+    border-radius: 9px;
+    padding: 15px;
+    margin: 20px;
+    margin-left: 123px;
 }
 .name
 {
@@ -72,30 +92,31 @@ h1
 {
     margin: 0;
 }
+.headsection
+{
+    display: flex;
+}
 .profil1
 {
     background-color: rgb(98, 3, 98);
     border-radius: 8px;
-    position: absolute;
     width: 30%;
-    right: 781px;
+    margin: 10px;
+    padding: 45px;
 }
 .profil2
 {
     background-color: rgb(98, 3, 98);
     border-radius: 8px;
-    position: absolute;
     width: 30%;
-    left: 370px;
-    top: 13px;
-
+    margin: 10px;
+    padding: 45px;
 }
 .profil3
 {
     background-color: rgb(98, 3, 98);
     border-radius: 8px;
-    position: absolute;
     width: 30%;
-    left:770px;
-    top: 25px;
+    margin: 10px;
+    padding: 45px;
 }
