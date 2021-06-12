@@ -55,7 +55,8 @@ h1
 }
 .notation
 {
-   
+   margin-right: 263px;
+   flex-direction: column;
 }
 .bordernotation1
 {
@@ -63,6 +64,8 @@ h1
     border-radius: 9px;
     padding: 15px;
     margin: 20px;
+    margin-right: 90px;
+    flex-direction: row;
 }
 .bordernotation2
 {
@@ -83,14 +86,19 @@ h1
 .name
 {
     margin: 0;
+    color: white;
+    padding-left: 20px;
 }
 .city
 {
     margin: 0;
+    color: #d54f99;
 }
 .descriptionprofil
 {
     margin: 0;
+    color: white;
+    padding-top: 20px;
 }
 .headsection
 {
@@ -111,6 +119,7 @@ h1
     width: 30%;
     margin: 10px;
     padding: 45px;
+    margin-top: 20px;
 }
 .profil3
 {
@@ -119,4 +128,5 @@ h1
     width: 30%;
     margin: 10px;
     padding: 45px;
+    margin-top: 30px;
 }
