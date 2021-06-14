@@ -55,33 +55,50 @@ h1
 }
 .notation
 {
-   margin-right: 263px;
+
    flex-direction: column;
 }
 .bordernotation1
 {
     background-color: #f7f1f5;
     border-radius: 9px;
-    padding: 15px;
+    padding: 5px;
+    padding-left: 60px;
+    padding-right: 75px;
     margin: 20px;
-    margin-right: 90px;
     flex-direction: row;
+    display: flex;
+    align-items: center;
+    width: 260px;
+    margin-right: 220px;
 }
 .bordernotation2
 {
     background-color: #f7f1f5;
     border-radius: 9px;
-    padding: 15px;
+    padding: 5px;
+    padding-left: 60px;
+    padding-right: 75px;
     margin: 20px;
-    margin-left: 65px;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    width:260px;
+    margin-left:50px;
 }
 .bordernotation3
 {
     background-color: #f7f1f5;
     border-radius: 9px;
-    padding: 15px;
-    margin: 20px;
-    margin-left: 123px;
+    padding: 5px;
+    padding-left: 60px;
+    padding-right: 75px;
+    margin: 20px; 
+    display: flex;
+    align-items: center;
+    width: 260px;
+    padding-left: 20px;
+    margin-left: 80px;
 }
 .name
 {
