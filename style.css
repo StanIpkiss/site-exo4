@@ -30,7 +30,7 @@ img
 }
 .information
 {
-    margin-right: 147px;
+ 
 }
 h1
 {
@@ -118,6 +118,10 @@ h1
     margin: 0;
     color: #d54f99;
 }
+svg
+{
+    padding-right: 5px;
+}
 .descriptionprofil
 {
     margin: 0;
@@ -164,12 +168,96 @@ h1
     font-size: 15px;
 }
 
-@media screen (min-height:900px)
+
+/* 
+    @media screen and (min-width: ...px)
+    @media screen and (max-width: ...px) 
+*/
+
+@media screen and (max-width:1293px)
 {
     body
     {
         background-color: red;
+        margin: 0;
+        overflow: scroll;
+
+    }
+    .portrait
+    {
+        display: block;
+    }
+    .profil1
+    {
+        margin-right: 0;
+        width: 100%;
+    }
+    .profil2
+    {
+        margin-right: 0;
+        width: 100%;
+        margin: 0;
+        margin-top: 20px;
+    }
+    .profil3
+    {
+        margin-right: 0;
+        width: 100%;
+        margin: 0;
+        margin-top: 20px;
+    }
+    .parentcard
+    {
+        height: auto;
+    }
+    .information
+    {
+        margin-right: 0;
+    }
+    .parentInfo
+    {
+        width: 50%;
+    }
+}
+@media screen and (max-width:1230px)
+{
+    body
+    {
+        background-color: green;
+    }
+    .portrait
+    {
+        display: inline;
+    }
+    .parentInfo
+    {
+        width: 90%;
     }
 
-
+}
+@media screen and (max-width:953px)
+{
+    .parentInfo
+    {
+        align-items: center;
+        flex-direction: column;
+    }
+    .notation 
+    {
+        align-items: flex-start;
+        justify-content: center;
+        width: 0;
+    }
+    ..bordernotation1
+    {
+        margin-right: 0;
+    }
+    .bordernotation2
+    {
+        margin-right: 0;
+    }
+    .bordernotation3
+    {
+        margin-right: 0;
+    }
 }
